@@ -31,7 +31,7 @@ function Apptest() {
     },
     {
       id: 3,
-      name: 'User Management',
+      name: 'Supplier Management',
       batches: [
         { name: 'right1', steps: createStepsMenu },
         { name: 'right2', steps: () => createStepsAdd(3) },
@@ -41,7 +41,7 @@ function Apptest() {
     },
     {
       id: 4,
-      name: 'User Management',
+      name: 'Storage/ Inventory',
       batches: [
         { name: 'right1', steps: createStepsMenu },
         { name: 'right2', steps: () => createStepsAdd(4) },
@@ -234,7 +234,7 @@ function Apptest() {
         return (
           <>
             <div className="cell">Centra</div>
-            <div className="cell">Provider</div>
+            <div className="cell">Powder</div>
             <div className="cell">Date Delivered</div>
           </>
         );
